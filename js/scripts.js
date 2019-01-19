@@ -9,11 +9,9 @@ $(document).ready(function(){
     var a4 = parseInt($("input:radio[name= q4]:checked").val());
     var a5 = parseInt($("input:radio[name= q5]:checked").val());
     // this adds together the answer values to our quiz, so we can use that to determine the quizzes answer
-    debugger;
-    alert("here i am!");
     var result = a1 + a2 + a3 + a4 + a5;
     $(".nameConfirm").text(name);
-    //this is the part that determines the quiz answer
+    //this is the part that determines and reveals the quiz answer
     if(isNaN(result)){
       $("#result5").show()
       $("#result1").hide()
