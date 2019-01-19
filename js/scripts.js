@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#survey").submit(function(event){
+  $("#quiz").submit(function(event){
     // gathers form information and sets them as useable variables for our functions
     event.preventDefault();
     var name= $("input#nameInput").val();

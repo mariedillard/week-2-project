@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>What Programming language should I learn?</title>
+    <title>What Programming language shoold I learn?</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
@@ -10,229 +10,244 @@
   </head>
   <body>
     <div class="container">
-      <form id="survey">
-        <label for="nameInput">Your Name:</label>
-        <input id="nameInput" type="text"/>
-        <h3>1. In your freetime would you rather...</h3>
-        <ul>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q1" value="5">
-                Take a nap!
-              </label>
-            </li>
+      <div class="row">
+          <div class="header col-md-12">
+            <h1> What programming language should I learn?! </h1>
+            <h4> Find out with a simple personality quiz! </h4>
           </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q1" value="10">
-                Solve a puzzle!
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q1" value="15">
-                Bake a cake!
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                 <input type="radio" name="q1" value="20">
-                  Paint a picture!
-                </label>
-            </li>
-          </div>
-        </ul>
-        <h3>2. You get to choose a free video game, what would you prefer!</h3>
-        <ul>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q2" value="5">
-                FPS all the way, dude!
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q2" value="10">
-                All strategy, all the time.
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q2" value="15">
-                  If it's not Pokemon, Animal Crossing, or Harvest moon-- what's the point?
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                 <input type="radio" name="q2" value="20">
-                  Katamari and Kojima games exclusively, next question.
-                </label>
-            </li>
-          </div>
-        </ul>
-        <h3>3. Alas! You've fallen in love! How do you approach courting this fair maiden? </h3>
-        <ul>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q3" value="5">
-                I'll wait for them to notice me, I despise confrontation.
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q3" value="10">
-                I find an activity they enjoy, and drop hints about going to do it together. If it seems hopeful, I'm going for it!
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q3" value="15">
-                Flirt shamelessly and ask for a number or a date. I don't play the field.
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                 <input type="radio" name="q3" value="20">
-                  Try to make them something to woo them, or impress them with my talents! If it works for birds it'll work for me.
-                </label>
-            </li>
-          </div>
-        </ul>
-        <h3>4. What does your home (or ideal home) look like?</h3>
-        <ul>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q4" value="5">
-                It's never something I've thought about much. Home is any where I hang my hat, y'know?
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q4" value="10">
-                Simple, home is where the heart is. Duh.
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q4" value="15">
-                Minimalism with home-y touches.
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                 <input type="radio" name="q4" value="20">
-                  I call it creative, everyone else calls it a mess.
-                </label>
-            </li>
-          </div>
-        </ul>
-        <h3>5. What genre of classical is most appealing to you?</h3>
-        <ul>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q5" value="5">
-                  Choral
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q5" value="10">
-                  Baroque
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                <input type="radio" name="q5" value="15">
-                  Romantic
-              </label>
-            </li>
-          </div>
-          <div class="radio">
-            <li>
-              <label>
-                 <input type="radio" name="q5" value="20">
-                  Avante-garde
-                </label>
-            </li>
-          </div>
-        <button type="submit" class="btn btn-success">
-          submit!
-        </button>
-      </form>
-      <div id="result1">
-        <h2>Your results:</h2>
-           <h3>You're a little harder to read, <span class="nameConfirm"></span>!</h3>
-           <p>
-             <span class="nameConfirm"></span>, you're personality is a little harder to box-in! You want to be a programmer but I'm unsure where you fit in! We suggest you research into different languages, and look for what's most important to you.
-           </p>
+        </div>
+      <div class="row">
+        <div class="quiz col-md-12">
+          <form id="quiz">
+            <label for="nameInput">Your Name:</label>
+            <input id="nameInput" type="text"/>
+            <h3>1. In your freetime woold you rather...</h3>
+            <ol>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q1" value="5">
+                    Take a nap!
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q1" value="10">
+                    Solve a puzzle!
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q1" value="15">
+                    Bake a cake!
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                     <input type="radio" name="q1" value="20">
+                      Paint a picture!
+                    </label>
+                </li>
+              </div>
+            </ol>
+            <h3>2. You get to choose a free video game, what woold you prefer!</h3>
+            <ol>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q2" value="5">
+                    FPS all the way, dude!
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q2" value="10">
+                    All strategy, all the time.
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q2" value="15">
+                      If it's not Pokemon, Animal Crossing, or Harvest moon-- what's the point?
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                     <input type="radio" name="q2" value="20">
+                      Katamari and Kojima games exclusively, next question.
+                    </label>
+                </li>
+              </div>
+            </ol>
+            <h3>3. Alas! You've fallen in love! How do you approach courting this fair maiden? </h3>
+            <ol>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q3" value="5">
+                    I'll wait for them to notice me, I despise confrontation.
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q3" value="10">
+                    I find an activity they enjoy, and drop hints about going to do it together. If it seems hopefol, I'm going for it!
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q3" value="15">
+                    Flirt shamelessly and ask for a number or a date. I don't play the field.
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                     <input type="radio" name="q3" value="20">
+                      Try to make them something to woo them, or impress them with my talents! If it works for birds it'll work for me.
+                    </label>
+                </li>
+              </div>
+            </ol>
+            <h3>4. What does your home (or ideal home) look like?</h3>
+            <ol>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q4" value="5">
+                    It's never something I've thought about much. Home is any where I hang my hat, y'know?
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q4" value="10">
+                    Simple, home is where the heart is. Duh.
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q4" value="15">
+                    Minimalism with home-y touches.
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                     <input type="radio" name="q4" value="20">
+                      I call it creative, everyone else calls it a mess.
+                    </label>
+                </li>
+              </div>
+            </ol>
+            <h3>5. What genre of classical is most appealing to you?</h3>
+            <ol>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q5" value="5">
+                      Choral
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q5" value="10">
+                      Baroque
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                    <input type="radio" name="q5" value="15">
+                      Romantic
+                  </label>
+                </li>
+              </div>
+              <div class="radio">
+                <li>
+                  <label>
+                     <input type="radio" name="q5" value="20">
+                      Avante-garde
+                    </label>
+                </li>
+              </div>
+            </ol>
+            <button type="submit" class="btn btn-success">
+              submit!
+            </button>
+          </form>
+        </div>
       </div>
-      <div id="result2">
-        <h2>Your results:</h2>
-           <h3>You should learn C#/.NET, <span class="nameConfirm"></span>!</h3>
-           <p>
-             <span class="nameConfirm"></span>, you are logical, and have no frills about it! The way you look at the world would make you perfect to learn C#/.NET!
-           </p>
-           <p>
-             Epicodus founder Michael Kaiser-Nyman says: <i>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</i>
+      <div class="row">
+        <div class="result col-md-12">
+          <div id="result1">
+            <h2>Your results:</h2>
+               <h3>You're a little harder to read, <span class="nameConfirm"></span>!</h3>
+               <p>
+                 <span class="nameConfirm"></span>, you're personality is a little harder to box-in! You want to be a programmer but I'm unsure where you fit in! We suggest you research into different languages, and look for what's most important to you.
+               </p>
+          </div>
+          <div id="result2">
+            <h2>Your results:</h2>
+               <h3>You should learn C#/.NET, <span class="nameConfirm"></span>!</h3>
+               <p>
+                 <span class="nameConfirm"></span>, you are logical, and have no frills about it! The way you look at the world would make you perfect to learn C#/.NET!
+               </p>
+               <p>
+                 Epicodus founder Michael Kaiser-Nyman says: <i>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</i>
+                </p>
+          </div>
+          <div id="result3">
+            <h2>Your results:</h2>
+               <h3>You should learn Ruby/Rails, <span class="nameConfirm"></span>!</h3>
+               <p>
+                 <span class="nameConfirm"></span>, you are minimalistic, and elegant- just like Ruby/Rails! Creative, but straightforward, this language seems perfect for you.
+               </p>
+               <p>
+                 The Epicodus website suggests: <i>Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework. Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.</i>
+               </p>
+          </div>
+          <div id="result4">
+            <h2>Your results:</h2>
+               <h3>You should learn CSS/REACT, <span class="nameConfirm"></span>!</h3>
+               <p>
+                 <span class="nameConfirm"></span>, you are creative and love expressing your skills! You're answers suggest you'd love to make something beautiful and functional, making CSS/REACT sound perfect for you!
+               </p>
+               <p>
+                 The Epicodus website suggests: <i>React is a JavaScript library used to create dynamic, interactive user interfaces. It allows a site to quickly update many different elements at once, without reloading the page. Since its development at Facebook in 2011 it has exploded in popularity. In fact, a recent survey by the popular question-and-answer site Stack Overflow reported React's usage increased by over 300% in 2016 alone. Examples of companies and products that use React include AirBnB, BBC, Ebay, Facebook, Instagram, Lyft, Netflix, New York Times, Reddit, Nike, Pinterest, Paypal, and many more. </i>
+               </p>
+          </div>
+          <div id="result5">
+            <h3>ERROR! You didn't answer every question!</h3>
+            <p>
+              Please try again!
             </p>
-      </div>
-      <div id="result3">
-        <h2>Your results:</h2>
-           <h3>You should learn Ruby/Rails, <span class="nameConfirm"></span>!</h3>
-           <p>
-             <span class="nameConfirm"></span>, you are minimalistic, and elegant- just like Ruby/Rails! Creative, but straightforward, this language seems perfect for you.
-           </p>
-           <p>
-             The Epicodus website suggests: <i>Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework. Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.</i>
-           </p>
-      </div>
-      <div id="result4">
-        <h2>Your results:</h2>
-           <h3>You should learn CSS/REACT, <span class="nameConfirm"></span>!</h3>
-           <p>
-             <span class="nameConfirm"></span>, you are creative and love expressing your skills! You're answers suggest you'd love to make something beautiful and functional, making CSS/REACT sound perfect for you!
-           </p>
-           <p>
-             The Epicodus website suggests: <i>React is a JavaScript library used to create dynamic, interactive user interfaces. It allows a site to quickly update many different elements at once, without reloading the page. Since its development at Facebook in 2011 it has exploded in popularity. In fact, a recent survey by the popular question-and-answer site Stack Overflow reported React's usage increased by over 300% in 2016 alone. Examples of companies and products that use React include AirBnB, BBC, Ebay, Facebook, Instagram, Lyft, Netflix, New York Times, Reddit, Nike, Pinterest, Paypal, and many more. </i>
-           </p>
-      </div>
-      <div id="result5">
-        <h3>ERROR! You didn't answer every question!</h3>
-        <p>
-          Please try again!
-        </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
