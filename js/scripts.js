@@ -14,29 +14,38 @@ $(document).ready(function(){
     var result = a1 + a2 + a3 + a4 + a5;
     $(".nameConfirm").text(name);
     //this is the part that determines the quiz answer
-    if (result <= 25) {
+    if(isNaN(result)){
+      $("#result5").show()
+      $("#result1").hide()
+      $("#result2").hide()
+      $("#result3").hide()
+      $("#result4").hide()
+    } else if (result <= 25) {
       $("#result1").show()
       $("#result2").hide()
       $("#result3").hide()
       $("#result4").hide()
+      $("#result5").hide()
 
     } else if (result <= 50) {
       $("#result2").show()
       $("#result1").hide()
       $("#result3").hide()
       $("#result4").hide()
+      $("#result5").hide()
 
     } else if (result <= 75) {
       $("#result3").show()
       $("#result1").hide()
       $("#result2").hide()
       $("#result4").hide()
-
+      $("#result5").hide()
     } else {
       $("#result4").show()
       $("#result1").hide()
       $("#result2").hide()
       $("#result3").hide()
+      $("#result5").hide()
     }
   });
 });
