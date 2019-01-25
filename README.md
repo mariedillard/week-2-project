@@ -30,4 +30,4 @@ _Contact Marie @mariedillard on github and mariedillard@protonmail.com for suppo
 _Created using atom, code relies and uses elements from jquery-3.1.1 and bootstrap css. Questionnaire and javascript elements rely heavily on jquery for the logic, while html and css relies heavily on bootstrap for proper formatting and browser compatibility._
 
 ### License
-Copyright (c) 2016 **milkybot**
+Copyright (c) 2018 **milkybot**
